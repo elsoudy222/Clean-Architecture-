@@ -2,7 +2,7 @@ import 'package:clean_architecture_demo/features/posts/domain/entities/post.dart
 
 class PostModel extends Post {
   const PostModel({
-    required super.id,
+    int? id,
     required super.title,
     required super.body,
   });
